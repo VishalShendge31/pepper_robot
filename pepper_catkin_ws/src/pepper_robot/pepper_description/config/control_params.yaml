@@ -1,0 +1,20 @@
+
+gazebo_ros_control:
+  pid_gains:
+    HeadYaw: {p: 100.0, i: 0.01, d: 10.0}
+    HeadPitch: {p: 100.0, i: 0.01, d: 10.0}
+    LShoulderPitch: {p: 100.0, i: 0.01, d: 10.0}
+    LShoulderRoll: {p: 100.0, i: 0.01, d: 10.0}
+    LElbowYaw: {p: 100.0, i: 0.01, d: 10.0}
+    LElbowRoll: {p: 100.0, i: 0.01, d: 10.0}
+    LWristYaw: {p: 100.0, i: 0.01, d: 10.0}
+    LHand: {p: 100.0, i: 0.01, d: 10.0}
+    RShoulderPitch: {p: 100.0, i: 0.01, d: 10.0}
+    RShoulderRoll: {p: 100.0, i: 0.01, d: 10.0}
+    RElbowYaw: {p: 100.0, i: 0.01, d: 10.0}
+    RElbowRoll: {p: 100.0, i: 0.01, d: 10.0}
+    RWristYaw: {p: 100.0, i: 0.01, d: 10.0}
+    RHand: {p: 100.0, i: 0.01, d: 10.0}
+    HipRoll: {p: 100.0, i: 0.01, d: 10.0}
+    HipPitch: {p: 100.0, i: 0.01, d: 10.0}
+    KneePitch: {p: 100.0, i: 0.01, d: 10.0}

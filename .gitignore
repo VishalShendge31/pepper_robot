@@ -1,0 +1,39 @@
+# ==============================================
+# ROS 1 (Catkin) Workspace: pepper_catkin_ws
+# ==============================================
+pepper_catkin_ws/build/
+pepper_catkin_ws/devel/
+pepper_catkin_ws/install/
+pepper_catkin_ws/.catkin_tools/
+
+# ==============================================
+# ROS 2 (Colcon) Workspace: pepper_colcon_ws
+# ==============================================
+pepper_colcon_ws/build/
+pepper_colcon_ws/install/
+pepper_colcon_ws/log/
+
+# ==============================================
+# General Ignores (Applies to Entire Project)
+# ==============================================
+# Python cache
+**/*.pyc
+**/__pycache__/
+
+# Logs and temporary files
+*.log
+*.bag
+*.cache
+*.msg
+*.srv
+*.action
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store  # macOS
+Thumbs.db  # Windows

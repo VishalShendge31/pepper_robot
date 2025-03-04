@@ -1,0 +1,8 @@
+services_1_to_2:
+  - service_1: /naoqi_driver/alife/set_state
+    service_2: /naoqi_driver/alife/set_state
+    type: naoqi_bridge_msgs/SetString
+
+  - service_1: /naoqi_driver/motion/wake_up
+    service_2: /naoqi_driver/motion/wake_up
+    type: std_srvs/Trigger

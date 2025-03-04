@@ -1,0 +1,8 @@
+services_1_to_2:
+  - service_1: /naoqi_driver/wakeup
+    service_2: /naoqi_driver/wakeup
+    type: std_srvs/Empty
+
+  - service_1: /naoqi_driver/motion/enable
+    service_2: /naoqi_driver/motion/enable
+    type: std_srvs/SetBool

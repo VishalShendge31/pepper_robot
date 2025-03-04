@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>naoqi_driver</name>
+  <version>0.6.0</version>
+  <description>Driver module between Aldebaran's NAOqiOS and ROS. It publishes all sensor and actuator data as well as basic diagnostic for battery, temperature. It subscribes also to RVIZ simple goal and cmd_vel for teleop.</description>
+
+  <author>Karsten Knese</author>
+  <maintainer email="mchamoux@softbankrobotics.com">Marine Chamoux</maintainer>
+  <maintainer email="mbusy@softbankrobotics.com">Maxime Busy</maintainer>
+  <maintainer email="surya.ambrose@gmail.com">Surya Ambrose</maintainer>
+  <maintainer email="karsten.knese@gmail.com">Karsten Knese</maintainer>
+  <license>BSD</license>
+
+  <build_depend>boost</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>diagnostic_msgs</build_depend>
+  <build_depend>diagnostic_updater</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>kdl_parser</build_depend>
+  <build_depend version_gte="0.0.4">naoqi_bridge_msgs</build_depend>
+  <build_depend>naoqi_libqi</build_depend>
+  <build_depend>naoqi_libqicore</build_depend>
+  <build_depend condition="$ROS_DISTRO != noetic">orocos_kdl</build_depend>
+  <build_depend condition="$ROS_DISTRO == noetic">liborocos-kdl-dev</build_depend>
+  <build_depend>robot_state_publisher</build_depend>
+  <build_depend>rosbag_storage</build_depend>
+  <build_depend>rosconsole</build_depend>
+  <build_depend>rosgraph_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>tf2_geometry_msgs</build_depend>
+  <build_depend>tf2_msgs</build_depend>
+  <build_depend>tf2_ros</build_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>boost</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>image_transport</exec_depend>
+  <exec_depend>kdl_parser</exec_depend>
+  <exec_depend version_gte="0.0.4">naoqi_bridge_msgs</exec_depend>
+  <exec_depend>naoqi_libqi</exec_depend>
+  <exec_depend>naoqi_libqicore</exec_depend>
+  <exec_depend condition="$ROS_DISTRO != noetic">orocos_kdl</exec_depend>
+  <exec_depend condition="$ROS_DISTRO == noetic">liborocos-kdl-dev</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rosbag_storage</exec_depend>
+  <exec_depend>rosconsole</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+
+  <conflict>nao_driver</conflict>
+  <conflict>naoqi_rosbridge</conflict>
+</package>
