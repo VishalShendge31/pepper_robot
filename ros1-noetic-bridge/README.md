@@ -30,10 +30,10 @@ Before starting the installation, ensure you have:
 ### 1. Clone the Repository
 ```bash
 # Clone the repository
-git clone https://github.com/Vishal_shendge31/ros1-noetic-bridge.git
+git clone https://github.com/VishalShendge31/pepper_robot.git
 
 # Navigate to project directory
-cd ros1-noetic-bridge
+cd ~/pepper_robot/ros1-noetic-bridge
 ```
 
 ### 2. Prepare Installation Scripts
