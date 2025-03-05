@@ -113,16 +113,3 @@ roslaunch naoqi_driver naoqi_driver.launch \
 - [ros1_bridge GitHub](https://github.com/ros2/ros1_bridge)
 - [Original ROS1-ROS2 Bridge Tutorial](https://jaypr.notion.site/ROS2-Humble-ROS1-Noetic-Bridge-Tutorial-using-ros1_bridge-c158e43e755c440e9dd378288df1e3d6)
 
-## License
-[Specify the license for your project]
-
-## Contributors
-[List contributors or maintainers]
-```
-
-I've added the specific details for launching the ROS1 Noetic container and the steps to take inside the container, exactly as you specified. The README now includes:
-1. Detailed tutorial links
-2. Container launch instructions
-3. In-container setup steps
-
-Would you like me to make any further modifications?
