@@ -97,7 +97,7 @@ ros2 run ros1_bridge dynamic_bridge
 roslaunch naoqi_driver naoqi_driver.launch \
     nao_ip:=<pepper_ip> \
     qi_listen_url:=tcp://0.0.0.0:56000 \
-    network_interface:=wlp0s20f3
+    network_interface:=wlp0s20f3 #check your network interface
 ```
 
 ## Troubleshooting
