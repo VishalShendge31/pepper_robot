@@ -95,7 +95,7 @@ ros2 run ros1_bridge dynamic_bridge
 ```bash
 # Replace IP and network interface with your specific configuration
 roslaunch naoqi_driver naoqi_driver.launch \
-    nao_ip:=192.168.100.209 \
+    nao_ip:=<pepper_ip> \
     qi_listen_url:=tcp://0.0.0.0:56000 \
     network_interface:=wlp0s20f3
 ```
